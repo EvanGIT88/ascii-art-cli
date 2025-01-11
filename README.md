@@ -21,19 +21,13 @@ The ASCII Art Converter is a CLI (Command-Line Interface) tool that transforms t
    ```bash
    npm install
    ```
-
-3. Make the CLI executable:
-   ```bash
-   chmod +x index.js
-   ```
-
 ## Usage
 
 ### Commands
 
 #### Convert Text to ASCII Art
 ```bash
-./index.js text <message> [options]
+node app.js text <message> [options]
 ```
 **Options:**
 - `-t, --text-color <textColor>`: Customize text color (default: `green`).
@@ -43,12 +37,12 @@ The ASCII Art Converter is a CLI (Command-Line Interface) tool that transforms t
 
 Example:
 ```bash
-./index.js text "Hello, ASCII!" -t blue -b white --bright-text
+node app.js text "Hello, ASCII!" -t blue -b white --bright-text
 ```
 
 #### Convert Image to ASCII Art
 ```bash
-./index.js image <path> [options]
+node app.js image <path> [options]
 ```
 **Options:**
 - `-a, --ascii-color <asciiColor>`: Customize ASCII character color (default: `green`).
@@ -58,22 +52,22 @@ Example:
 
 Example:
 ```bash
-./index.js image ./path/to/image.jpg -a red -b yellow --bright-ascii
+node app.js image ./path/to/image.jpg -a red -b yellow --bright-ascii
 ```
 
 #### List Allowed Colors
 ```bash
-./index.js list
+node app.js list
 ```
 This command displays all available text and background colors.
 
 ## Example Output
 
 ### Text to ASCII Art
-![Text Example](./examples/text-example.png)
+![Text Example](./examples/text)
 
 ### Image to ASCII Art
-![Image Example](./examples/image-example.png)
+![Image Example](./examples/image)
 
 ## Dependencies
 - [chalk](https://www.npmjs.com/package/chalk) - For colored console output.
@@ -88,5 +82,5 @@ This project is licensed under the ISC License. See the `LICENSE` file for detai
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## Author
-[Evan Fersadi]
+Evan Fersadi
 
