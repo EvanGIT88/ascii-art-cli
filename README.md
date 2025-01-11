@@ -82,7 +82,7 @@ This command displays all available text and background colors.
 - [@jimp/utils](https://www.npmjs.com/package/@jimp/utils) - Utility functions for Jimp.
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the ISC License. See the `LICENSE` file for details.
 
 ## Contributions
 Contributions are welcome! Feel free to open an issue or submit a pull request.
